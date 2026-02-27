@@ -28,6 +28,50 @@ public class Item {
             return total_ajustado;
         
         }
+        
+        public void setDesconto(float desconto){
+            if(desconto <= 1.0){
+                this.desconto = desconto;  
+            }else{
+                this.desconto = 0;
+            }
+           
+        }
+            public float getDesconto(){
+            return desconto;
+        }
+            
+        public int getQuantidade(){
+            return quantidade;
+        }
+        
+        public void setQuantidade(int quantidade){
+            if(quantidade >=0){
+            this.quantidade = quantidade;
+            
+            }else{
+            
+            this.quantidade = 0;
+            }   
+        }
+        
+        public String getDescricao(){
+ 
+            return descricao;   
+            }
+        public void setDescricao(String descricao){
+            this.descricao = descricao;
+        
+        }
+        public String getId(){
+             return id;
+        
+        }
+        public void setId(String id){ // escrever valor no atributo id
+            this.id = id;  
+        }
+        
+        
     
     
 }
