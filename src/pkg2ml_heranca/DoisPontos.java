@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package pkg2ml_heranca;
 
 public class DoisPontos {
@@ -23,7 +20,6 @@ public float getCoordX(){
 
 }
 
-
 public void setCoordY(float y){
     this.coordY = y;
 
@@ -32,6 +28,20 @@ public void setCoordY(float y){
 public float getCoordY(){
     return coordY;
 }
+
+public String toString(){
+    return "Dimesão de 2 pontos. \n"+
+            "Coordenada X:"+getCoordX()+"\n"+
+            "Coordenada Y:"+getCoordY();
+           
+}
+
+
+
+
+
+
+
     
 }
 
